@@ -64,3 +64,7 @@ jumpLines(swapFirst, swapSecond)
 const nums = [1, 3, 2, 4];
 [nums[1], nums[2]] = [nums[2], nums[1]]
 console.log(nums)
+
+
+const { authors: [ ,, { extras: [ { firstname: extraName } ] }] } = meta
+console.log(extraName)
