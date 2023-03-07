@@ -3,9 +3,7 @@
  * Es un operador que evalua si una expresion o valor es null o undefined para
  * retornara otro valor.
  * 
- * 
  */
-
 const foo = null ?? 'Operator coalescing'
 console.log(foo)
 
@@ -15,3 +13,8 @@ const person = {
 }
 
 console.log(person.lastname ?? 'Alvarado');
+
+let username = 'John'
+console.log(username ?? 'Anonymous')
+
+

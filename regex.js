@@ -15,3 +15,10 @@ const matcher = regex.exec('2023-33-20')
 //console.log(matcher)
 //console.table(matcher)
 
+const regexApple = new RegExp('Apple', 'g')
+const fruits = 'Apple, Banana, Kiwi, Apple, Orange, etc...'
+console.log(regex, regex.global)
+
+for(const match of fruits.matchAll(regexApple)) {
+    console.log(match)
+}
